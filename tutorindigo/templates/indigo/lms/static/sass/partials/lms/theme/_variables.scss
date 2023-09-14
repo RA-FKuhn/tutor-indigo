@@ -351,12 +351,12 @@ $link-hover-decoration:     underline !default;
 //
 // Define the maximum width of `.container` for different screen sizes.
 
-// $container-max-widths: (
-//   sm: 540px,
-//   md: 720px,
-//   lg: 960px,
-//   xl: 1140px
-// ) !default;
+ $container-max-widths: (
+   sm: 100%,
+   md: 100,
+   lg: 100,
+   xl: 100
+ ) !default;
 
 // @include _assert-ascending($container-max-widths, "$container-max-widths");
 
@@ -616,6 +616,7 @@ $btn-border-radius:           0px !default;
 $btn-border-radius-lg:        0px !default;
 $btn-border-radius-sm:        0px !default;
 $btn-focus-border-radius:     0px !default;
+$btn-bg: $primary;
 
 // $btn-transition:              color .15s ease-in-out, background-color .15s ease-in-out, border-color .15s ease-in-out, box-shadow .15s ease-in-out !default;
 
