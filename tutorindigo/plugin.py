@@ -11,18 +11,17 @@ config = {
     "defaults": {
         "VERSION": __version__,
         "WELCOME_MESSAGE": "The place for all your online learning",
-        "PRIMARY_COLOR": "#3b85ff",  # cool blue
+        "PRIMARY_COLOR": "#d34c27",  # cool blue
         # Footer links are dictionaries with a "title" and "url"
         # To remove all links, run:
         # tutor config save --set INDIGO_FOOTER_NAV_LINKS=[] --set INDIGO_FOOTER_LEGAL_LINKS=[]
         "FOOTER_NAV_LINKS": [
-            {"title": "About", "url": "/about"},
-            {"title": "Contact", "url": "/contact"},
+
         ],
         "FOOTER_LEGAL_LINKS": [
             {"title": "Terms of service", "url": "/tos"},
             {
-                "title": "Indigo theme for Open edX",
+                "title": "ROBUR Automation GmbH",
                 "url": "https://github.com/overhangio/tutor-indigo",
             },
         ],
