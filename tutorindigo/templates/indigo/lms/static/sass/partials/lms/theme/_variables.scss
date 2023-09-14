@@ -1,9 +1,30 @@
-$primary: {{ INDIGO_PRIMARY_COLOR }};
+$primary: {
+        {
+        INDIGO_PRIMARY_COLOR
+    }
+}
+
+;
 
 // Theme fonts
 $font-family-title: Plex;
 $serif: Crimson;
-$f-sans-serif: Crimson, 'Open Sans','Helvetica Neue', Helvetica, Arial, sans-serif;
+$f-sans-serif: Crimson, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+
+body {
+    background-color: aqua !important;
+}
+
+.unit-container {
+    max-width: none !important;
+}
+
+.btn-brand {
+    background-color: #d34c27 !important;
+    border-color: unset !important;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.1);
+}
 
 // Initialize the Open edX Bootstrap theme
 @import 'edx-bootstrap/sass/open-edx/theme';
