@@ -5,6 +5,10 @@ $content-padding-bottom: 10px;
 $header-height: 75px;
 $footer-height: 125.5px;
 
+body{
+  background-color: aqua !important;
+}
+
 body, body.view-profile {
   min-height: initial;
   background-color: red;
