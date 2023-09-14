@@ -1,5 +1,13 @@
 $primary: {{INDIGO_PRIMARY_COLOR    }};
 
+// Theme fonts
+$font-family-title: Plex;
+$serif: Crimson;
+$f-sans-serif: Crimson, 'Open Sans', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+
+$primary: {{INDIGO_PRIMARY_COLOR    }};
+
 $element-color-levels: () !default;
 $element-color-levels: map-merge(
   (
@@ -61,7 +69,6 @@ $green:   #0D7D4D !default;
 //   $colors
 // );
 
-$primary: #00262B !default; // elm
 $brand: #D23228 !default;
 $success: $green !default;
 $info: $blue !default;
