@@ -19,10 +19,9 @@ config = {
 
         ],
         "FOOTER_LEGAL_LINKS": [
-            {"title": "Terms of service", "url": "/tos"},
             {
                 "title": "ROBUR Automation GmbH",
-                "url": "https://github.com/overhangio/tutor-indigo",
+                "url": "https://www.robur-automation.com/",
             },
         ],
     },
